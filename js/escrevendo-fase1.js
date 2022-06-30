@@ -28,5 +28,5 @@ button.onclick = function () {
     alert("Infelizmente você errou! Vamos tentar novamente?");
     return;
   }
-  window.location="aula2.html";
+  window.location="fase2.html";
 };

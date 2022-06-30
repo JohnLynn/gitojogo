@@ -8,6 +8,6 @@ button.onclick = function aula3() {
     alert("Infelizmente você errou! Vamos tentar novamente?");
     return;
   }
-  window.location="aula4.html";
+  window.location="fase4.html";
 };
 

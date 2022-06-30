@@ -16,6 +16,6 @@ button.onclick = function () {
     alert("Infelizmente você errou! Vamos tentar novamente?");
     return;
   } 
-  window.location="aula3.html";
+  window.location="fase3.html";
 };
 
