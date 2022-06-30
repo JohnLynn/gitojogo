@@ -1,0 +1,44 @@
+fase 1 - iniciar uma área de trabalho
+  git clone:
+  git init:
+
+fase 2 - trabalhe na mudança atual
+   git add:
+   git mv:
+   git restore:
+   git rm:
+
+fase 3 - colaborar
+	git fetch:
+	git pull:
+	git push:
+	
+fase 4 - crescer, navegar e salvar sua história
+	git branch: gera uma lista de branchs criadas.
+		git branch -d: excluirá o branch local somente se você já fez o push e o merge.
+		git branch -D:  forçar a exclusão do branch, mesmo que você ainda não tenha feito o push e o merge com ele.
+	git checkout:
+	git commit: gera uma lista com as alterações não preparadas para confirmação.
+		git commit -m: salva as mudanças considerados versões 'seguras' de um projeto.
+	git merge:
+
+fase 5 - integrar, marcar e ajustar sua história
+	git rebase:
+	git reset:
+	git switch:
+	git tag:
+
+fase 5 - explorar e apresentar o histórico e o estado
+   git log:
+   git show:
+   git status:
+   
+fase 6 - localizar, comparar e examinar o histórico e o estado
+   git bisect:
+   git diff:
+   git grep:
+   
+
+
+
+  

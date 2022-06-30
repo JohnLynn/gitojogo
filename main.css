@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('font/Comfortaa-VariableFont_wght.ttf') format('truetype');
+}
+body{
+    background-image: url(imagens/space.PNG); 
+    background-size: cover; 
+    font-family: "Comfortaa";
+}
+.titulo {
+    color: azure;
+    margin-left: 30px;
+}
+.texto {
+    color: azure;
+    margin-top: 40px;
+    text-align: center;
+}
+/*
+site para criar botão: https://css3buttongenerator.com/
+*/
+.botao {
+    text-align: center;
+    text-decoration:none;
+    text-transform: uppercase;
+    color:aquamarine;
+}
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: "Comfortaa";
+    color: #ffffff;
+    font-size: 14px;
+    background: #58a700;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #58cc02;
+    text-decoration: none;
+  }
