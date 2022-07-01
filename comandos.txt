@@ -1,4 +1,37 @@
+  var comando = prompt("?");
+  if(comando == ""){
+    alert("O " + comando + ", . Parabéns você acertou!");
+    var comando2 = prompt("?");
+    if(comando2 == ""){
+      alert("O " + comando2 + ", . Parabéns você acertou!");
+      var comando3 = prompt("?");
+      if(comando3 == ""){
+        alert("O " + comando3 + ", . Parabéns você acertou!");
+        var comando4 = prompt("?");
+        if(comando4 == ""){
+          alert("O " + comando4 + ", . Parabéns você acertou!");
+        }else{
+          alert("Infelizmente você errou! Volte 4ª casas.");
+          return;
+        }
+      }else{
+        alert("Infelizmente você errou! Volte 3ª casas.");
+        return;
+      }
+    }else{
+      alert("Infelizmente você errou! Volte 2ª casas.");
+      return;
+    }
+  }else{
+    alert("Infelizmente você errou! Volte 1ª casa.");
+    return;
+  }
+
+-----------------------------------------------------------------------------------------------
+
 fase 1 - iniciar uma área de trabalho
+  mkdir
+  cd
   git clone:
   git init:
 
@@ -28,12 +61,12 @@ fase 5 - integrar, marcar e ajustar sua história
 	git switch:
 	git tag:
 
-fase 5 - explorar e apresentar o histórico e o estado
+fase 6 - explorar e apresentar o histórico e o estado
    git log:
    git show:
    git status:
    
-fase 6 - localizar, comparar e examinar o histórico e o estado
+fase 7 - localizar, comparar e examinar o histórico e o estado
    git bisect:
    git diff:
    git grep:
