@@ -16,6 +16,16 @@ body{
     margin-top: 40px;
     text-align: center;
 }
+.corVermelha{
+    color:rgba(207, 2, 2, 0.938);
+}
+.corVerde{
+    color:#58a700;
+}
+.logo{
+    max-width: 200px; 
+    max-height: 166,25px;
+}
 /*
 site para criar botão: https://css3buttongenerator.com/
 */
@@ -24,6 +34,7 @@ site para criar botão: https://css3buttongenerator.com/
     text-decoration:none;
     text-transform: uppercase;
     color:aquamarine;
+    font-weight: bold;
 }
 .btn {
     -webkit-border-radius: 10;
